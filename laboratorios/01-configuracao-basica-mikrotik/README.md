@@ -1,46 +1,75 @@
+# Laboratório 01 – Configuração básica do VMware, EVE-NG e MikroTik CHR
 
-# Configurações do MikroTik RouterOS
+## Objetivo
 
-Esta pasta contém arquivos de configuração exportados durante as práticas do Laboratório 01, posteriormente revisados para publicação.
+Implementar um ambiente virtualizado para estudos de Redes de Computadores, utilizando o EVE-NG e o MikroTik CHR, aplicando conceitos fundamentais de configuração e administração de redes.
 
-## Arquivos disponíveis
+## Tecnologias e ferramentas utilizadas
 
-| Arquivo | RouterOS | Descrição |
-|---|---|---|
-| [configuracao-inicial.rsc](configuracao-inicial.rsc) | 6.49.19 | Configuração inicial de IP, DNS, rota padrão e NTP. |
-| [exportacao-automatica.rsc](exportacao-automatica.rsc) | 6.48.2 | Configuração de interfaces, DHCP Client, serviços, scripts e agendamento de exportação. |
+- VMware
+- EVE-NG
+- MikroTik CHR
+- RouterOS 6.48
+- WinBox
+- PuTTY
+- Linux
 
-## Conhecimentos abordados
+## Topologia de rede
 
-- Endereçamento IPv4.
-- Configuração de interfaces.
-- Roteamento estático.
-- DNS e DHCP Client.
-- Gerenciamento de serviços de rede.
-- Sincronização de horário via NTP.
-- Scripts e Scheduler.
-- Exportação de configurações.
-- Boas práticas de segurança.
+A topologia inicial é composta por uma conexão de rede externa (WAN), um roteador MikroTik CHR e uma máquina Linux conectada à rede local (LAN).
 
-## Observações técnicas
+```text
+Internet (WAN)
+      |
+    ether1
+ MikroTik CHR
+    ether2
+      |
+     Linux
+```
 
-Os arquivos representam etapas diferentes do mesmo laboratório, utilizando versões distintas do RouterOS e cenários de configuração diferentes.
+## Atividades desenvolvidas
 
-## Segurança e utilização
+- Instalação e configuração do ambiente virtualizado.
+- Criação da topologia no EVE-NG.
+- Acesso ao MikroTik por terminal.
+- Identificação e configuração de interfaces.
+- Configuração de endereçamento IPv4.
+- Configuração de DNS e rota padrão.
+- Configuração de DHCP Client.
+- Gerenciamento de usuários.
+- Configuração de data, hora e NTP.
+- Backup e exportação de configurações.
+- Introdução a scripts e agendamento de tarefas.
 
-Os arquivos foram revisados para publicação pública, com ajustes de segurança, padronização e utilização de endereços de documentação na prática complementar.
+## Organização dos arquivos
 
-As versões revisadas ainda não foram validadas em execução.
+| Diretório | Descrição |
+|---|---|
+| [Documentação](./documentacao/) | Relatório e procedimentos técnicos. |
+| [Configurações](./configuracoes/) | Arquivos de configuração do MikroTik RouterOS. |
+| [Topologia](./topologia/) | Arquivo do laboratório para importação no EVE-NG. |
+| [Evidências](./evidencias/) | Registros e capturas de tela das atividades práticas. |
 
-O agendamento automático permanece desabilitado até a realização dos testes.
+## Conhecimentos desenvolvidos
 
-As configurações possuem finalidade educacional e devem ser revisadas e adaptadas antes de qualquer importação.
+- Virtualização e emulação de redes.
+- Administração básica do MikroTik RouterOS.
+- Endereçamento IP e roteamento.
+- Gerenciamento de configurações.
+- Automação básica de tarefas administrativas.
+- Documentação técnica de infraestrutura.
 
+## Status do laboratório
 
-## Resultados e aprendizados
-
-Este laboratório permitiu desenvolver conhecimentos iniciais sobre virtualização, emulação de redes e administração do MikroTik RouterOS.
+- Montagem do ambiente: concluída.
+- Configurações iniciais: realizadas.
+- Organização dos arquivos: concluída.
+- Evidências práticas: pendentes.
+- Validação final de conectividade: pendente.
 
 ## Referência de estudo
 
 Formação Analista de Redes – Forum Telecom.
+
+Laboratório desenvolvido para fins educacionais e aprimoramento profissional em Redes de Computadores e Infraestrutura de TI.
