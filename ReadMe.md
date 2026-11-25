@@ -1,70 +1,78 @@
 
-# Formação Analista de Redes
+# Laboratórios de Redes de Computadores
 
-Repositório criado para documentar meus estudos e atividades práticas na área de Redes de Computadores e Infraestrutura de TI.
+## Sobre o repositório
 
-O objetivo é registrar os conhecimentos adquiridos durante minha formação, documentar configurações, organizar laboratórios e acompanhar minha evolução técnica por meio de atividades práticas.
+Este repositório tem como objetivo documentar meus estudos e experiências práticas em Redes de Computadores e Infraestrutura de TI.
 
-## Conteúdo
+Os laboratórios são desenvolvidos em ambientes virtualizados, buscando aplicar conceitos teóricos em cenários práticos de configuração, administração e diagnóstico de redes.
 
-- Introdução às Redes de Computadores
-- Modelo OSI
-- Modelo TCP/IP
-- Endereçamento IPv4 e Subnetting
-- DNS e DHCP
-- Switching
-- VLAN
-- Roteamento
-- Protocolos de Roteamento
-- Firewall e NAT
-- VPN
-- Linux
-- MikroTik
-- Virtualização e Emulação de Redes
+Cada laboratório apresenta documentação técnica, topologia de rede, procedimentos realizados, arquivos de configuração e, quando disponíveis, evidências dos testes.
 
-## Ferramentas e Tecnologias
+## Tecnologias e ferramentas
 
-- VMware
-- EVE-NG
 - MikroTik CHR
+- RouterOS
+- EVE-NG
+- VMware
 - WinBox
 - PuTTY
-- VirtualBox
 - Linux
-- Windows Server
+- Git e GitHub
 
-## Laboratórios Práticos
+## Laboratórios práticos
 
-### Laboratório 01 – Configuração básica do VMware, EVE-NG e MikroTik
+| Nº | Laboratório | Status |
+|---|---|---|
+| 01 | Configuração básica do VMware, EVE-NG e MikroTik CHR | Em revisão |
 
-Preparação do ambiente de virtualização e emulação de redes, seguida das configurações iniciais do MikroTik CHR.
+## Conhecimentos abordados
 
-**Atividades realizadas:**
+- Virtualização e emulação de redes
+- Endereçamento IPv4
+- Configuração de interfaces
+- Roteamento estático
+- DNS e DHCP
+- Gerenciamento de usuários e permissões
+- Sincronização de horário (NTP)
+- Backup e exportação de configurações
+- Automação de tarefas
+- Documentação técnica
 
-- Instalação e configuração do VMware e EVE-NG.
-- Instalação e utilização do PuTTY.
-- Adição do MikroTik CHR e Linux ao ambiente.
-- Identificação e configuração das interfaces.
-- Configuração de endereços IP e rota padrão.
-- Gerenciamento de usuários e senhas.
-- Configuração de data, hora e sincronização NTP.
-- Verificação de atualizações do RouterOS.
-- Estudo de upgrade e downgrade.
-- Criação de backup e exportação das configurações.
+## Próximos estudos
 
-**Arquivos disponíveis:**
+- NAT
+- VLAN
+- Switching
+- Firewall
+- PPPoE
+- OSPF
+- BGP
+- VPN
+- Troubleshooting de redes
 
-- Documentação do laboratório em PDF.
-- Arquivos de backup do MikroTik.
-- Exportação das configurações.
-- Arquivos práticos utilizados no laboratório.
+## Organização dos laboratórios
 
+Cada laboratório será organizado com:
 
-## Objetivo
+- Objetivos da prática
+- Tecnologias utilizadas
+- Topologia de rede
+- Documentação técnica
+- Arquivos de configuração
+- Testes e evidências
+- Resultados e aprendizados
 
-Consolidar conhecimentos teóricos e desenvolver habilidades práticas em Redes de Computadores, Infraestrutura de TI e administração de equipamentos de rede, por meio de estudos, experimentações e documentação de laboratórios.
+## Sobre mim
 
-## Sobre o Repositório
+Bacharel em Engenharia da Computação, com foco em Infraestrutura de TI, Redes de Computadores e Suporte Técnico.
 
-Este repositório está em constante desenvolvimento e será atualizado conforme o avanço dos estudos e a realização de novos laboratórios.
+Busco desenvolver minhas competências técnicas por meio de estudos contínuos e laboratórios práticos.
 
+## Contato
+
+[LinkedIn](https://www.linkedin.com/in/marcosdelimacordeiro/)
+
+---
+
+Repositório destinado ao aprendizado contínuo e ao desenvolvimento profissional em Redes de Computadores.
