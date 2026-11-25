@@ -1,38 +1,41 @@
 
-# Laboratório 01 – Configuração básica do VMware, EVE-NG e MikroTik CHR
+# Configurações do MikroTik RouterOS
 
-## Objetivo
+Esta pasta contém arquivos de configuração exportados durante as práticas do Laboratório 01, posteriormente revisados para publicação.
 
-Preparar um ambiente virtualizado para estudos de Redes de Computadores e realizar as configurações iniciais de um roteador MikroTik CHR.
+## Arquivos disponíveis
 
-## Ferramentas utilizadas
+| Arquivo | RouterOS | Descrição |
+|---|---|---|
+| [configuracao-inicial.rsc](configuracao-inicial.rsc) | 6.49.19 | Configuração inicial de IP, DNS, rota padrão e NTP. |
+| [exportacao-automatica.rsc](exportacao-automatica.rsc) | 6.48.2 | Configuração de interfaces, DHCP Client, serviços, scripts e agendamento de exportação. |
 
-- VMware
-- EVE-NG
-- MikroTik CHR
-- RouterOS
-- WinBox
-- PuTTY
-- Linux
+## Conhecimentos abordados
 
-## Atividades realizadas e estudadas
+- Endereçamento IPv4.
+- Configuração de interfaces.
+- Roteamento estático.
+- DNS e DHCP Client.
+- Gerenciamento de serviços de rede.
+- Sincronização de horário via NTP.
+- Scripts e Scheduler.
+- Exportação de configurações.
+- Boas práticas de segurança.
 
-- Preparação do ambiente de virtualização.
-- Configuração do EVE-NG.
-- Adição de equipamentos virtuais.
-- Acesso ao terminal do MikroTik.
-- Identificação das interfaces de rede.
-- Configuração de endereços IP.
-- Configuração de rota padrão.
-- Gerenciamento de usuários e permissões.
-- Configuração de data, hora e NTP.
-- Estudo de upgrade e downgrade do RouterOS.
-- Backup e exportação de configurações.
-- Introdução à automação de exportações.
+## Observações técnicas
 
-## Documentação e arquivos
+Os arquivos representam etapas diferentes do mesmo laboratório, utilizando versões distintas do RouterOS e cenários de configuração diferentes.
 
-Em organização.
+## Segurança e utilização
+
+Os arquivos foram revisados para publicação pública, com ajustes de segurança, padronização e utilização de endereços de documentação na prática complementar.
+
+As versões revisadas ainda não foram validadas em execução.
+
+O agendamento automático permanece desabilitado até a realização dos testes.
+
+As configurações possuem finalidade educacional e devem ser revisadas e adaptadas antes de qualquer importação.
+
 
 ## Resultados e aprendizados
 
