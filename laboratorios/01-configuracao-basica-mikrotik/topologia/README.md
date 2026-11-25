@@ -24,9 +24,13 @@ Internet (WAN)
      Linux
 ```
 
+
 ## Arquivo do laboratório
 
 O arquivo ZIP disponibilizado neste diretório contém a topologia exportada do EVE-NG.
+
+- [Baixar Laboratório 01 – EVE-NG](./laboratorio-01-eve-ng.zip)
+
 
 ## Como utilizar
 
