@@ -1,54 +1,74 @@
+# Laboratórios de Redes de Computadores
 
-# Topologia de Rede – Laboratório 01
+## Sobre o repositório
 
-## Objetivo
+Este repositório tem como objetivo documentar meus estudos e atividades práticas em Redes de Computadores e Infraestrutura de TI.
 
-Disponibilizar a topologia utilizada durante as práticas de configuração inicial do MikroTik CHR no ambiente EVE-NG.
+Os laboratórios são desenvolvidos em ambientes virtualizados, aplicando conhecimentos de configuração, administração e diagnóstico de redes.
 
-## Arquivo disponível
+## Tecnologias e ferramentas
 
-- [Download da topologia EVE-NG](laboratorio-01-eve-ng.zip)
+- MikroTik CHR
+- RouterOS
+- EVE-NG
+- VMware
+- WinBox
+- PuTTY
+- Linux
+- Git e GitHub
 
-## Ambiente utilizado
+## Laboratórios práticos
 
-| Recurso | Configuração |
-|---|---|
-| Virtualização | VMware |
-| Emulação | EVE-NG |
-| Roteador | MikroTik CHR |
-| RouterOS | 6.48.2 |
-| Cliente | Ubuntu Server 18.04 |
-| Rede externa | pnet0 |
+| Nº | Laboratório | Status |
+|---|---|---|
+| 01 | [Configuração básica do VMware, EVE-NG e MikroTik CHR](laboratorios/01-configuracao-basica-mikrotik) | Documentado |
 
-## Estrutura da topologia
+## Conhecimentos abordados
 
-Internet / ISP
-    |
-  ether1 (WAN)
-    |
-MikroTik CHR
-    |
-  ether2 (LAN)
-    |
-Ubuntu Server
+- Virtualização e emulação de redes
+- Endereçamento IPv4
+- Configuração de interfaces
+- Roteamento estático
+- DNS e DHCP Client
+- Gerenciamento de usuários e permissões
+- Sincronização de horário (NTP)
+- Backup e exportação de configurações
+- Scripts e agendamento de tarefas
+- Documentação técnica
 
-## Procedimento de importação
+## Organização dos laboratórios
 
-1. Baixar o arquivo ZIP.
-2. Acessar a interface web do EVE-NG.
-3. Selecionar a opção de importação de laboratório.
-4. Selecionar o arquivo ZIP.
-5. Abrir o laboratório importado.
-6. Verificar a disponibilidade das imagens dos equipamentos.
-7. Iniciar os equipamentos e realizar as configurações.
+Cada laboratório poderá conter:
 
-## Observações
+- README com objetivos e procedimentos.
+- Documentação técnica.
+- Topologia de rede.
+- Arquivos de configuração.
+- Evidências e resultados dos testes, quando disponíveis.
 
-O arquivo disponibilizado contém a estrutura da topologia de rede, mas não inclui as imagens dos sistemas operacionais ou os discos das máquinas virtuais.
+## Próximos estudos
 
-A reprodução do laboratório depende da instalação das imagens compatíveis no EVE-NG.
+- DHCP Server
+- NAT
+- VLAN
+- Switching
+- Firewall
+- PPPoE
+- OSPF
+- BGP
+- VPN
+- Troubleshooting de redes
 
-As configurações do MikroTik estão disponíveis na pasta de configurações deste laboratório.
+## Sobre mim
 
-A topologia possui finalidade educacional e deve ser utilizada em ambiente controlado.
+Bacharel em Engenharia da Computação, com foco em Infraestrutura de TI, Redes de Computadores e Suporte Técnico.
 
+Busco desenvolver minhas competências técnicas por meio de estudos contínuos e laboratórios práticos.
+
+## Contato
+
+[LinkedIn](https://www.linkedin.com/in/marcosdelimacordeiro/)
+
+---
+
+Repositório destinado ao aprendizado contínuo e ao desenvolvimento profissional em Redes de Computadores.
